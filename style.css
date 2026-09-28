@@ -1,0 +1,69 @@
+body{
+    background-color:whitesmoke;
+    color: black;
+    line-height: 1.6;
+    font-family: 'segoi UI', roboto, sans-sarif;
+}
+
+header{
+    background-color: rgb(3, 30, 90);
+    color: whitesmoke;
+}
+
+.header-container{
+display:flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+nav.ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: gold
+}
+
+.search-bar button {
+    color: rgb(12, 7, 51);
+   
+}
+
+.search-bar button{
+    background-color: gold;
+}
+
+h1, h2{
+    color: blue;
+}
+
+
+main{
+    margin:2rem auto;
+    padding: 1rem;
+    max-width: 1100px;
+
+}
+
+.about-conainer,
+.skills-container,
+.projects-container,
+.education-container,
+.contact-container{
+    background-color: rgb(12, 7, 51);
+   border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+  
+
