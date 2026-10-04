@@ -1,18 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Smarika Paneru</title>
+    <title>Smarika Paneru | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header id="home">
-         <img src="images/logo.jpg" alt="logo" width="100">
-        <h1>My Portfolio</h1>
 
-        <p>Welcome to my portfolio website. Here, you can learn about me, my skills, my education, and my projects.</p>
+    <header id="home">
+
+        <div class="header-top">
+            <img src="images/logo.jpg" alt="Smarika Paneru logo">
+
+            <div>
+                <h1>Smarika Paneru</h1>
+                <p>BIT Student | Technology and Web Development</p>
+            </div>
+
+            <form>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
 
         <nav>
             <ul>
@@ -26,64 +40,68 @@
             </ul>
         </nav>
 
-        <form>
-            <label for="search">Search:</label>
-            <input type="text" id="search" name="search" placeholder="Search my portfolio">
-            <button type="submit">Search</button>
-        </form>
-
     </header>
 
     <main>
 
         <section id="about">
-         
+
             <h2>About Me</h2>
 
-             <img src="images/smarika.png" alt="logo" width="200">
+            <div class="about-content">
 
-            <p>
-                Hello! My name is Smarika Paneru. I am a Bachelor of Information Technology (BIT) student at International American University. I am interested in technology, programming, and web development.
-            </p>
+                <div class="about-text">
 
-            <p>
-                I enjoy learning new technologies and developing my technical skills. I have basic knowledge of HTML, CSS, JavaScript, and Python. I am also interested in database management, software development, and creating websites that are simple and useful.
-            </p>
+                    <p>
+                        Hello! My name is Smarika Paneru. I am a Bachelor of Information Technology (BIT) student at International American University. I am interested in technology, programming, and web development.
+                    </p>
 
-            <p>
-                I believe that learning through practice is an important part of improving my knowledge. I enjoy working on academic projects, solving problems, and exploring new ideas related to information technology.
-            </p>
+                    <p>
+                        I enjoy learning new technologies and developing my technical skills. I have basic knowledge of HTML, CSS, JavaScript, and Python. I am also interested in database management, software development, and creating websites that are simple and useful.
+                    </p>
 
-            <p>
-                My goal is to become a skilled IT professional and gain more experience in programming and web development. I look forward to learning new skills and working on creative and challenging projects in the future.
-            </p>
+                    <p>
+                        I believe that learning through practice is an important part of improving my knowledge. I enjoy working on academic projects, solving problems, and exploring new ideas related to information technology.
+                    </p>
+
+                    <p>
+                        My goal is to become a skilled IT professional and gain more experience in programming and web development. I look forward to learning new skills and working on creative and challenging projects in the future.
+                    </p>
+
+                </div>
+
+                <img src="images/smarika.png" alt="Photo of Smarika Paneru">
+
+            </div>
 
         </section>
 
         <section id="projects">
-    <h2>My Projects</h2>
 
-    <p>
-        During my IT studies, I have worked on academic projects that helped me improve my programming and problem-solving skills.
-    </p>
+            <h2>My Projects</h2>
 
-    <article>
+            <p>
+                During my IT studies, I have worked on academic projects that helped me improve my programming and problem-solving skills.
+            </p>
 
-        <h3>Student Management System</h3>
+            <article>
 
-        <p>
-            The Student Management System is a C programming project designed to manage student records in an organized way.
-        </p>
+                <h3>Student Management System</h3>
 
-        <p>
-            The main features of this project include adding, displaying, searching, updating, and deleting student records.
-        </p>
+                <p>
+                    The Student Management System is a C programming project designed to manage student records in an organized way.
+                </p>
 
-        <p>
-            Through this project, I learned how to use structures, functions, and file handling to store and manage student information.
-        </p>
+                <p>
+                    The main features of this project include adding, displaying, searching, updating, and deleting student records.
+                </p>
 
-    </article>
+                <p>
+                    Through this project, I learned how to use structures, functions, and file handling to store and manage student information.
+                </p>
+
+            </article>
+
         </section>
 
         <section id="skills">
@@ -102,9 +120,6 @@
                 <dt>Database Management</dt>
                 <dd>I have knowledge of MySQL, Oracle, MongoDB, and PostgreSQL. I am interested in learning how databases are used to store, organize, and manage information.</dd>
 
-                <dt>Frameworks</dt>
-                <dd>I am familiar with Spring Boot, Angular, .NET, and Django at a basic level and am interested in learning more about application development.</dd>
-
                 <dt>Web Development</dt>
                 <dd>I have basic knowledge of HTML, CSS, and JavaScript. I enjoy creating simple webpages and learning how websites are structured.</dd>
 
@@ -118,7 +133,7 @@
                 <dd>I enjoy identifying problems, thinking of possible solutions, and improving my logical thinking through programming and practical exercises.</dd>
 
             </dl>
-            
+
         </section>
 
         <section id="education">
@@ -201,7 +216,7 @@
 
                 <p>
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here"></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
                 </p>
 
                 <button type="submit">Send Message</button>
@@ -238,3 +253,4 @@
 </body>
 
 </html>
+```

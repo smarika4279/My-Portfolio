@@ -1,69 +1,261 @@
-body{
-    background-color:whitesmoke;
-    color: black;
-    line-height: 1.6;
-    font-family: 'segoi UI', roboto, sans-sarif;
+
+* {
+    box-sizing: border-box;
 }
 
-header{
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Header */
+header {
     background-color: rgb(3, 30, 90);
     color: whitesmoke;
+    padding: 15px;
+    border-radius: 6px;
 }
-
-.header-container{
-display:flex;
-justify-content: space-between;
-align-items: center;
-} 
-
-nav.ul{
-    list-style: none;
+.header-top {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
 }
-
-nav a{
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius:6px;
+}
+header h1 {
     color: whitesmoke;
-    text-decoration: none
+    margin: 0;
 }
-
-nav a:hover{
-    color: gold
+header p {
+    margin: 5px 0;
 }
-
-.search-bar button {
-    color: rgb(12, 7, 51);
-   
+header form {
+    display: flex;
+    gap: 5px;
 }
-
-.search-bar button{
+header input {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+header button {
     background-color: gold;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
 }
-
-h1, h2{
-    color: blue;
-}
-
-
-main{
-    margin:2rem auto;
-    padding: 1rem;
-    max-width: 1100px;
-
-}
-
-.about-conainer,
-.skills-container,
-.projects-container,
-.education-container,
-.contact-container{
+/* Navigation */
+nav {
     background-color: rgb(12, 7, 51);
-   border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    padding: 8px;
+    margin-top: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav a:hover {
+    color: gold;
 }
 
+/* Main Sections */
 
-  
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+main section {
+    background-color: white;
+    border: 1px solid #a8dce2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: rgb(3, 30, 90);
+    border-bottom: 2px solid gold;
+    width: fit-content;
+}
+
+/* About */
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+#about img {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Projects */
+
+#projects article {
+    background-color: #f5fbfc;
+    padding: 15px;
+    border-left: 4px solid rgb(3, 30, 90);
+    border-radius: 5px;
+}
+
+#projects article:hover {
+    transform: translateY(-3px);
+}
+
+/* Skills */
+
+#skills dt {
+    color: rgb(3, 30, 90);
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#skills dd {
+    margin-bottom: 8px;
+}
+
+/* Education */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #b5dce0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(3, 30, 90);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eafcfd;
+}
+
+/* Contact */
+
+#contact label {
+    display: block;
+    font-weight: bold;
+    color: rgb(3, 30, 90);
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: rgb(3, 30, 90);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(3, 30, 90);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+footer h2 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .header-top,
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    header form {
+        justify-content: center;
+    }
+
+    #about img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    header form {
+        flex-direction: column;
+    }
+
+    header input,
+    header button {
+        width: 100%;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
 
