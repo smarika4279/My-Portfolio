@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo {
     width: 70px;
     height: 70px;
@@ -5,6 +6,8 @@
     border-radius: 0;
     display: block;
 }
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 
 * {
     box-sizing: border-box;
@@ -26,13 +29,17 @@ header {
     padding: 15px;
     border-radius: 6px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 .header-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
 }
+<<<<<<< HEAD
 
 header img {
     width: 60px;
@@ -40,41 +47,67 @@ header img {
     border-radius: 6px;
 }
 
+=======
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius:6px;
+}
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 header h1 {
     color: whitesmoke;
     margin: 0;
 }
+<<<<<<< HEAD
 
 header p {
     margin: 5px 0;
 }
 
+=======
+header p {
+    margin: 5px 0;
+}
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 header form {
     display: flex;
     gap: 5px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 header input {
     padding: 7px;
     border: none;
     border-radius: 4px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 header button {
     background-color: gold;
     border: none;
     padding: 7px 12px;
     border-radius: 4px;
+<<<<<<< HEAD
     cursor: pointer;
 }
 
+=======
+}
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 /* Navigation */
 nav {
     background-color: rgb(12, 7, 51);
     padding: 8px;
     margin-top: 15px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 nav ul {
     display: flex;
     justify-content: center;
@@ -83,17 +116,27 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 nav a {
     color: whitesmoke;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 nav a:hover {
     color: gold;
 }
 
 /* Main Sections */
+<<<<<<< HEAD
+=======
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 main {
     max-width: 1100px;
     margin: 20px auto;
@@ -105,7 +148,11 @@ main section {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
+<<<<<<< HEAD
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+=======
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 }
 
 h2 {
@@ -114,7 +161,12 @@ h2 {
     width: fit-content;
 }
 
+<<<<<<< HEAD
 /* About Section */
+=======
+/* About */
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 .about-content {
     display: flex;
     align-items: center;
@@ -128,23 +180,39 @@ h2 {
 #about img {
     width: 220px;
     border-radius: 10px;
+<<<<<<< HEAD
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Projects Section */
+=======
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Projects */
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 #projects article {
     background-color: #f5fbfc;
     padding: 15px;
     border-left: 4px solid rgb(3, 30, 90);
     border-radius: 5px;
+<<<<<<< HEAD
     transition: transform 0.3s ease;
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 }
 
 #projects article:hover {
     transform: translateY(-3px);
 }
 
+<<<<<<< HEAD
 /* Skills Section */
+=======
+/* Skills */
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 #skills dt {
     color: rgb(3, 30, 90);
     font-weight: bold;
@@ -155,19 +223,27 @@ h2 {
     margin-bottom: 8px;
 }
 
+<<<<<<< HEAD
 /* Education Section */
 .table-container {
     width: 100%;
     overflow-x: auto;
 }
+=======
+/* Education */
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
+<<<<<<< HEAD
 th,
 td {
+=======
+th, td {
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
     border: 1px solid #b5dce0;
     padding: 10px;
     text-align: left;
@@ -182,6 +258,7 @@ tr:nth-child(even) {
     background-color: #eafcfd;
 }
 
+<<<<<<< HEAD
 /* Image Gallery Section */
 #gallery {
     text-align: center;
@@ -274,6 +351,10 @@ tr:nth-child(even) {
 }
 
 /* Contact Section */
+=======
+/* Contact */
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 #contact label {
     display: block;
     font-weight: bold;
@@ -286,7 +367,10 @@ tr:nth-child(even) {
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
+<<<<<<< HEAD
     font: inherit;
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 }
 
 #contact button {
@@ -295,6 +379,7 @@ tr:nth-child(even) {
     border: none;
     padding: 10px 15px;
     border-radius: 4px;
+<<<<<<< HEAD
     cursor: pointer;
 }
 
@@ -303,6 +388,12 @@ tr:nth-child(even) {
 }
 
 /* Footer */
+=======
+}
+
+/* Footer */
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
 footer {
     background-color: rgb(3, 30, 90);
     color: white;
@@ -330,12 +421,19 @@ footer a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 footer a:hover {
     text-decoration: underline;
 }
 
 /* Tablet Responsive Design */
 @media (max-width: 768px) {
+=======
+/* Responsive */
+
+@media (max-width: 768px) {
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
     .header-top,
     .about-content {
         flex-direction: column;
@@ -354,6 +452,7 @@ footer a:hover {
     #about img {
         width: 200px;
     }
+<<<<<<< HEAD
 
     #gallery .slider-frame {
         width: 100%;
@@ -373,11 +472,22 @@ footer a:hover {
     nav ul {
         flex-direction: column;
         align-items: center;
+=======
+}
+
+@media (max-width: 480px) {
+
+    nav ul {
+        flex-direction: column;
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
     }
 
     header form {
         flex-direction: column;
+<<<<<<< HEAD
         width: 100%;
+=======
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
     }
 
     header input,
@@ -389,6 +499,7 @@ footer a:hover {
         flex-direction: column;
         gap: 8px;
     }
+<<<<<<< HEAD
 
     #gallery .slider-track img {
         height: 260px;
@@ -399,3 +510,7 @@ footer a:hover {
         padding: 8px;
     }
 }
+=======
+}
+
+>>>>>>> a811aaeed18dbee28d033d256f0541db85c48b35
